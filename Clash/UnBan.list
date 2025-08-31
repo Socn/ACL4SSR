@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,dizhensubao.getui.com
 # Google
 DOMAIN,dl.google.com
 DOMAIN-SUFFIX,googletraveladservices.com
+# Google CN CDN
+# https://github.com/gfwlist/gfwlist/issues/2255
+DOMAIN-REGEX,rr[0-9]*-+sn-(ni5|2x3|j5o).....\.(googlevideo|xn--ngstr-lra8j)\.com
 
 # Mozilla
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
